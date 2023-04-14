@@ -10,9 +10,9 @@
     <h3>¿Alcohol o gasolina?</h3>
 <script>
     tanque =40;
-    document.write("<h3>Operacion 1</h3>");
     recorrido = 480;
-    document.write("El tanque tiene "+Math.round(recorrido/tanque)+" litros de Gasolina");
+    document.write("<h3>Operacion 1</h3>");
+    document.write("El tanque tiene "+Number((recorrido/tanque).toFixed(2))+" litros de Gasolina");
     document.write("<h3>Operacion 2</h3>");
     tanque = 300;
     document.write("El tanque tiene "+Math.round(recorrido/tanque)+" litros de Alcohol");

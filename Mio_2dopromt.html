@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promts</title>
+</head>
+<body>
+    <h1>Promt de Prueba</h1>
+    <script>
+        //alert("Hola");
+        var nombre = prompt("¿Cual es tu nombre?");
+        document.write("Hola " + nombre);
+        var num1 = Number(prompt("Dame el primer numero"));
+        function sumando(nombre, num1){
+            var suma = num1+num1;
+            document.write("<br>");
+            document.write("La suma es: " + suma + " de "+nombre);
+        }
+        sumando(nombre, num1);
+    </script>
+</body>
+</html>
